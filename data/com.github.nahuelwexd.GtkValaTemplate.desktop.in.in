@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+# TRANSLATORS: This is the app name
+Name=GTK Vala Template
+# TRANSLATORS: This is the generic name for the app
+GenericName=Application template
+# TRANSLATORS: This is a little summary about the app
+Comment=A GTK + Vala application template
+Icon=@ICON_NAME@
+TryExec=@COMMAND@
+Exec=@COMMAND@
+Terminal=false
+Categories=GTK;
+# These are the keywords of the app, they MUST be delimited by semicolons and MUST end with a semicolon
+Keywords=GTK;
+StartupNotify=true

@@ -1,0 +1,5 @@
+data/com.github.nahuelwexd.GtkValaTemplate.desktop.in.in
+data/com.github.nahuelwexd.GtkValaTemplate.metainfo.xml.in.in
+src/app.vala
+src/main-window.ui
+src/shortcuts.ui

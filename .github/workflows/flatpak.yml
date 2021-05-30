@@ -1,0 +1,54 @@
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/flatpak.yml
+      - build-aux/flatpak/**
+      - build-aux/meson/**
+      - data/**
+      - po/**
+      - src/**
+      - vapi/**
+      - meson.build
+      - meson_options.txt
+
+  pull_request:
+    branches:
+      - main
+    paths:
+      - .github/workflows/flatpak.yml
+      - build-aux/flatpak/**
+      - build-aux/meson/**
+      - data/**
+      - po/**
+      - src/**
+      - vapi/**
+      - meson.build
+      - meson_options.txt
+
+name: Flatpak
+
+jobs:
+  build:
+    name: Build the app
+    runs-on: ubuntu-20.04
+    container:
+      image: bilelmoussaoui/flatpak-github-actions:gnome-40
+      options: --privileged
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+
+      - name: Build
+        uses: bilelmoussaoui/flatpak-github-actions@v2
+        with:
+          bundle: com.github.nahuelwexd.GtkValaTemplate.Devel.flatpak
+          manifest-path: build-aux/flatpak/com.github.nahuelwexd.GtkValaTemplate.Devel.json
+          run-tests: true
+
+      - name: Upload bundle
+        uses: actions/upload-artifact@v2.2.2
+        with:
+          name: Flatpak Bundle
+          path: com.github.nahuelwexd.GtkValaTemplate.Devel.flatpak

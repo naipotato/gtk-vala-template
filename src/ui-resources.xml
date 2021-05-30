@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+
+<gresource prefix="/com/github/nahuelwexd/GtkValaTemplate">
+  <file>main-window.ui</file>
+  <file>styles.css</file>
+</gresource>
+
+<gresource prefix="/com/github/nahuelwexd/GtkValaTemplate/gtk">
+  <file alias="help-overlay.ui">shortcuts.ui</file>
+</gresource>
+
+</gresources>

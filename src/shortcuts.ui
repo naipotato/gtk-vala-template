@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+
+<object class="GtkShortcutsWindow" id="help_overlay">
+  <property name="modal">yes</property>
+
+  <child>
+    <object class="GtkShortcutsSection">
+      <child>
+        <object class="GtkShortcutsGroup">
+          <!-- TRANSLATORS:  -->
+          <property name="title" translatable="yes">General</property>
+
+          <child>
+            <object class="GtkShortcutsShortcut">
+              <!-- TRANSLATORS:  -->
+              <property name="title" translatable="yes">Show keyboard shortcuts</property>
+              <property name="action-name">win.show-help-overlay</property>
+            </object>
+          </child>
+
+          <child>
+            <object class="GtkShortcutsShortcut">
+              <!-- TRANSLATORS:  -->
+              <property name="title" translatable="yes">Quit application</property>
+              <property name="action-name">app.quit</property>
+            </object>
+          </child>
+
+        </object>
+      </child>
+    </object>
+  </child>
+
+</object>
+
+</interface>

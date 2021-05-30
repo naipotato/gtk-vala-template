@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns="http://usefulinc.com/ns/doap#">
+  <name xml:lang="en">GTK Vala Template</name>
+  <shortdesc xml:lang="en">A GTK + Vala application template</shortdesc>
+  <homepage rdf:resource="https://github.com/nahuelwexd/GTK-Vala-Template" />
+  <bug-database rdf:resource="https://github.com/nahuelwexd/GTK-Vala-Template/issues" />
+  <programming-language>Vala</programming-language>
+  <license rdf:resource="https://opensource.org/licenses/MIT" />
+
+  <description xml:lang="en">
+    A boilerplate template for GTK + Vala. It uses Meson as build system and has Flatpak support by default.
+  </description>
+
+  <developer>
+    <foaf:Person>
+      <foaf:name>Nahuel Gomez Castro</foaf:name>
+      <foaf:mbox rdf:resource="mailto:nahuel.gomezcastro@outlook.com.ar" />
+    </foaf:Person>
+  </developer>
+
+</Project>

@@ -1,0 +1,26 @@
+[
+  {
+    "directory": "/home/nahuelwexd/Desarrollo/Proyectos/gtk-vala-template/build",
+    "command": "valac -C --debug --debug --enable-checking --target-glib=2.66 /home/nahuelwexd/Desarrollo/Proyectos/gtk-vala-template/vapi/config.vapi --pkg gtk4 --pkg gio-2.0 --color=always --directory src/com.github.nahuelwexd.GtkValaTemplate.p --basedir ../src --gresources=../src/ui-resources.xml ../src/app.vala ../src/main-window.vala",
+    "file": "../src/app.vala",
+    "output": "src/com.github.nahuelwexd.GtkValaTemplate.p/app.c"
+  },
+  {
+    "directory": "/home/nahuelwexd/Desarrollo/Proyectos/gtk-vala-template/build",
+    "command": "ccache cc -Isrc/com.github.nahuelwexd.GtkValaTemplate.p -Isrc -I../src -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/fribidi -I/usr/include/libxml2 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib64/graphene-1.0/include -I/usr/include/gio-unix-2.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -g -DGETTEXT_PACKAGE=com.github.nahuelwexd.GtkValaTemplate -mfpmath=sse -msse -msse2 -pthread -MD -MQ src/com.github.nahuelwexd.GtkValaTemplate.p/meson-generated_.._ui-resources.c.o -MF src/com.github.nahuelwexd.GtkValaTemplate.p/meson-generated_.._ui-resources.c.o.d -o src/com.github.nahuelwexd.GtkValaTemplate.p/meson-generated_.._ui-resources.c.o -c src/ui-resources.c",
+    "file": "src/ui-resources.c",
+    "output": "src/com.github.nahuelwexd.GtkValaTemplate.p/meson-generated_.._ui-resources.c.o"
+  },
+  {
+    "directory": "/home/nahuelwexd/Desarrollo/Proyectos/gtk-vala-template/build",
+    "command": "ccache cc -Isrc/com.github.nahuelwexd.GtkValaTemplate.p -Isrc -I../src -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/fribidi -I/usr/include/libxml2 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib64/graphene-1.0/include -I/usr/include/gio-unix-2.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -DGETTEXT_PACKAGE=com.github.nahuelwexd.GtkValaTemplate -mfpmath=sse -msse -msse2 -pthread -MD -MQ src/com.github.nahuelwexd.GtkValaTemplate.p/meson-generated_app.c.o -MF src/com.github.nahuelwexd.GtkValaTemplate.p/meson-generated_app.c.o.d -o src/com.github.nahuelwexd.GtkValaTemplate.p/meson-generated_app.c.o -c src/com.github.nahuelwexd.GtkValaTemplate.p/app.c",
+    "file": "src/com.github.nahuelwexd.GtkValaTemplate.p/app.c",
+    "output": "src/com.github.nahuelwexd.GtkValaTemplate.p/meson-generated_app.c.o"
+  },
+  {
+    "directory": "/home/nahuelwexd/Desarrollo/Proyectos/gtk-vala-template/build",
+    "command": "ccache cc -Isrc/com.github.nahuelwexd.GtkValaTemplate.p -Isrc -I../src -I. -I.. -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/gtk-4.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/fribidi -I/usr/include/libxml2 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/graphene-1.0 -I/usr/lib64/graphene-1.0/include -I/usr/include/gio-unix-2.0 -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g -DGETTEXT_PACKAGE=com.github.nahuelwexd.GtkValaTemplate -mfpmath=sse -msse -msse2 -pthread -MD -MQ src/com.github.nahuelwexd.GtkValaTemplate.p/meson-generated_main-window.c.o -MF src/com.github.nahuelwexd.GtkValaTemplate.p/meson-generated_main-window.c.o.d -o src/com.github.nahuelwexd.GtkValaTemplate.p/meson-generated_main-window.c.o -c src/com.github.nahuelwexd.GtkValaTemplate.p/main-window.c",
+    "file": "src/com.github.nahuelwexd.GtkValaTemplate.p/main-window.c",
+    "output": "src/com.github.nahuelwexd.GtkValaTemplate.p/meson-generated_main-window.c.o"
+  }
+]
