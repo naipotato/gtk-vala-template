@@ -1,5 +1,5 @@
 {
-  "app-id": "com.github.nahuelwexd.GtkValaTemplate",
+  "app-id": "com.github.nahuelwexd.GtkValaTemplate.Devel",
   "runtime": "org.gnome.Platform",
   "runtime-version": "40",
   "sdk": "org.gnome.Sdk",
