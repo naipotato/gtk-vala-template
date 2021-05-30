@@ -10,8 +10,8 @@ valac   = meson.get_compiler('vala')
 vapidir = meson.source_root() / 'vapi'
 
 deps = [
-    dependency('gio-2.0', version: '>= 2.66'),
-    dependency('gtk4', version: '>= 4.1'),
+    dependency('gio-2.0', version: '>=2.66'),
+    dependency('gtk4', version: '>=4.0'),
     valac.find_library('config', dirs: vapidir),
 ]
 
