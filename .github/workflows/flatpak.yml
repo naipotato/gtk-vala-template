@@ -44,7 +44,7 @@ jobs:
         uses: bilelmoussaoui/flatpak-github-actions@v3
         with:
           bundle: com.github.nahuelwexd.GtkValaTemplate.Devel.flatpak
-          manifest-path: build-aux/flatpak/com.github.nahuelwexd.GtkValaTemplate.Devel.json
+          manifest-path: build-aux/flatpak/com.github.nahuelwexd.GtkValaTemplate.json
           run-tests: true
 
       - name: Upload bundle
