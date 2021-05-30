@@ -15,11 +15,6 @@ deps = [
     valac.find_library('config', dirs: vapidir),
 ]
 
-# We target GLib 2.66
-add_project_arguments('--target-glib=2.66',
-    language: 'vala',
-)
-
 # Compile the app executable
 executable(meson.project_name(), sources, ui_resources,
            dependencies: deps,
