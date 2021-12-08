@@ -48,7 +48,7 @@ jobs:
           run-tests: true
 
       - name: Upload bundle
-        uses: actions/upload-artifact@v2.2.4
+        uses: actions/upload-artifact@v2.3.0
         with:
           name: Flatpak Bundle
           path: com.github.nahuelwexd.GtkValaTemplate.Devel.flatpak
