@@ -41,7 +41,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Build
-        uses: bilelmoussaoui/flatpak-github-actions@v4
+        uses: bilelmoussaoui/flatpak-github-actions@v5
         with:
           bundle: com.github.nahuelwexd.GtkValaTemplate.Devel.flatpak
           manifest-path: build-aux/flatpak/com.github.nahuelwexd.GtkValaTemplate.json
